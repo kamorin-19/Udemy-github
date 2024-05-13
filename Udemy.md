@@ -6,3 +6,6 @@
 - ファイルの削除:git rm <filename>
 - 削除の際はワーキング、ステージングなど注意
 - 特定のコミット情報を表示する git show <commitID>
+- branch名を変更する: git branch -m <oldname> <newname>
+- branchを削除する: git branch -m <branchname>
+- 全てのbranchのlogを1行でグラフ表示: git log --all --oneline --graph
