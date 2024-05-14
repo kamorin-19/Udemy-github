@@ -9,3 +9,5 @@
 - branch名を変更する: git branch -m <oldname> <newname>
 - branchを削除する: git branch -m <branchname>
 - 全てのbranchのlogを1行でグラフ表示: git log --all --oneline --graph
+- Working directorとローカルリポのdiffを確認する: git diff HEAD
+- staging areaとリポジトリのdiffを確認する: git diff --staged HEAD
