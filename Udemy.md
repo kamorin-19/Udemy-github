@@ -11,3 +11,4 @@
 - 全てのbranchのlogを1行でグラフ表示: git log --all --oneline --graph
 - Working directorとローカルリポのdiffを確認する: git diff HEAD
 - staging areaとリポジトリのdiffを確認する: git diff --staged HEAD
+- 直近のコミットとその前のコミットを比較する:git diff HEAD^ HEAD
