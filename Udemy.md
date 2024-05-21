@@ -12,3 +12,4 @@
 - Working directorとローカルリポのdiffを確認する: git diff HEAD
 - staging areaとリポジトリのdiffを確認する: git diff --staged HEAD
 - 直近のコミットとその前のコミットを比較する:git diff HEAD^ HEAD
+- ブランチ同士の差分を比較する: git diff <branchname1> <branchname2>
