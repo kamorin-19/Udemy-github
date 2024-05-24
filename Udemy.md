@@ -19,3 +19,4 @@
 - 作業内容をstashから消す: git stash drop
 - untrackファイルの内容も含めてstashする: git stash -u
 - git stash applyとgit stash dropを同時に行う: git stash pop
+- ignoreしたファイルもstashする: git stash -a
