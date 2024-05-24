@@ -17,3 +17,5 @@
 - stashした内容を一覧表示する: git stash list
 - stashした内容をWorking directoryに戻す: git stash apply
 - 作業内容をstashから消す: git stash drop
+- untrackファイルの内容も含めてstashする: git stash -u
+- git stash applyとgit stash dropを同時に行う: git stash pop
