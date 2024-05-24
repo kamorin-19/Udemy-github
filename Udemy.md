@@ -20,3 +20,4 @@
 - untrackファイルの内容も含めてstashする: git stash -u
 - git stash applyとgit stash dropを同時に行う: git stash pop
 - ignoreしたファイルもstashする: git stash -a
+- stashにメッセージを添える: git stash save "<message>"
