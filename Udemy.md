@@ -29,3 +29,5 @@
 - タグをリモートリポジトリに送信:git push <remote_ref> <tagname>
 - 全てのtag情報をリモートリポジトリにpush:git push <remote_ref> --tags
 - 特定のtag情報をリモートリポジトリから削除:git push <remote_ref>:<tagname>
+- コードを特定のバージョンの状態にする: git checkout tags/<tagname>
+- 全てのtagの情報をローカルに取得する:git fecth --tags --all
