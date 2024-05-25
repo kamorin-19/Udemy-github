@@ -21,3 +21,11 @@
 - git stash applyとgit stash dropを同時に行う: git stash pop
 - ignoreしたファイルもstashする: git stash -a
 - stashにメッセージを添える: git stash save "<message>"
+- タグをつける:git tag <tagname>
+- タグの一覧を表示: git tag --list
+- タグの削除: git tag --delete <tagname>
+- annotation tag（追加情報)のタグを追加する、バージョン情報とかを書いたりする:git tag -a <tagname>
+- 特定のコミットにタグをつける:git tag -a <tagname> <commitid>
+- タグをリモートリポジトリに送信:git push <remote_ref> <tagname>
+- 全てのtag情報をリモートリポジトリにpush:git push <remote_ref> --tags
+- 特定のtag情報をリモートリポジトリから削除:git push <remote_ref>:<tagname>
