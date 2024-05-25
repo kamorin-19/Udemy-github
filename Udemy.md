@@ -31,3 +31,5 @@
 - 特定のtag情報をリモートリポジトリから削除:git push <remote_ref>:<tagname>
 - コードを特定のバージョンの状態にする: git checkout tags/<tagname>
 - 全てのtagの情報をローカルに取得する:git fecth --tags --all
+- submoduleを追加: git submodule add <URL>
+- submoduleを追加した場合、mainの方に.gitmodulesがあるはず
