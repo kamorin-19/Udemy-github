@@ -36,3 +36,4 @@
 - submoduleを初期化する,submoduleのフォルダで実行:git submodule init
 - submoduleを更新する,submoduleのフォルダで実行: git submodule update
 - submoduleも一緒にclone: git clone --recurse-submodules <url>
+- 全てのsubmoduleでコマンドを実行するサンプル:git submodule foreach 'git push origin main'
