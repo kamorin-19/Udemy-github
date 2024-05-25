@@ -33,5 +33,6 @@
 - 全てのtagの情報をローカルに取得する:git fecth --tags --all
 - submoduleを追加: git submodule add <URL>
 - submoduleを追加した場合、mainの方に.gitmodulesがあるはず
-- submoduleを初期化する:git submodule init
-- submoduleを更新する: git submodule update
+- submoduleを初期化する,submoduleのフォルダで実行:git submodule init
+- submoduleを更新する,submoduleのフォルダで実行: git submodule update
+- submoduleも一緒にclone: git clone --recurse-submodules <url>
