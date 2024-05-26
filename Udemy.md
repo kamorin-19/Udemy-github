@@ -37,3 +37,4 @@
 - submoduleを更新する,submoduleのフォルダで実行: git submodule update
 - submoduleも一緒にclone: git clone --recurse-submodules <url>
 - 全てのsubmoduleでコマンドを実行するサンプル:git submodule foreach 'git push origin main'
+- コミットを取り消す: git revert HEAD(commitID)
